@@ -1,0 +1,48 @@
+/* Estilos generales */
+.App {
+  text-align: center;
+}
+
+/* Logo en el encabezado */
+.App-logo-footer {
+  height: 20vmin;
+  pointer-events: none;
+  transition: transform 1s ease-in-out;
+}
+
+/* Logo en el pie de página */
+.App-logo-nav {
+  height: 10vmin;
+  pointer-events: none;
+  transition: transform 1s ease-in-out;
+  animation: App-logo-nav-spin infinite 20s linear;
+}
+
+/* Animación para el logo en el footer */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-footer {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* Animación para el logo en el encabezado */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-nav {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Animación para el logo en el encabezado y pie de página */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imgDetalle{
+  padding: 25px 0px 15px 15px;
+}
+.detallemascota{
+  padding: 15px 0px 15px 0px;
+}

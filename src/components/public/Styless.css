@@ -1,0 +1,26 @@
+.container-backGroundImg{
+    background-image: url('../img/eggFondo.jpg'); /* Ruta de la imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 50vh;
+}
+
+#inicio-button{
+    background-color:cornflowerblue;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000;
+}
+
+#detalle-button{
+    background-color:rgb(19, 225, 125);
+ 
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
